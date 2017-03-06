@@ -23,3 +23,4 @@
 `    wrote a readme file`
 9. 比如要回退到`add ditributed`就是第二个阶段，就用`git rest --hard af1de2a`即可，格式化查看提交情况用`git log --pretty=oneline`
 10. 如果回退到了第二个版本，那么在使用`git log`就不能看到地三阶段的commitid了，此时就只能用`git reflog查看所有的提交情况`
+11. 如果要删除版本库中的文件，这用`git rm 1.txt`接着在将修改commit即`git commit`
